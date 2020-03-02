@@ -1,4 +1,8 @@
+package mjeks.athenkosi;
+
 import junit.framework.TestCase;
+import mjeks.athenkosi.Employee;
+import mjeks.athenkosi.Person;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,6 @@
-public class Employee extends Person{
+package mjeks.athenkosi;
+
+public class Employee extends Person {
     private int empNum;
     private String jobTitle;
 
@@ -29,7 +31,7 @@ public class Employee extends Person{
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "mjeks.athenkosi.Employee{" +
                 "empNum=" + empNum +
                 ", jobTitle='" + jobTitle + '\'' +
                 '}';

@@ -1,3 +1,5 @@
+package mjeks.athenkosi;
+
 public class Person {
     private String name;
     private String gender;
@@ -38,7 +40,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "mjeks.athenkosi.Person{" +
                 "name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
