@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbb90ed-22e2-4bd7-a537-00fa590cbb05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MiniBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/polymorphism/MiniBusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/encapsulation/Encaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/encapsulation/EncapsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mjeks/athenkosi/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mjeks/athenkosi/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mjeks/athenkosi/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mjeks/athenkosi/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mjeks/athenkosi/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mjeks/athenkosi/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="encapsulation" />
       <recent name="polymorphism" />
       <recent name="" />
     </key>
@@ -74,11 +63,29 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MiniBusTest">
+  <component name="RunManager" selected="JUnit.EncapsTest">
     <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inheritance" />
       <option name="PACKAGE_NAME" value="mjeks.athenkosi" />
       <option name="MAIN_CLASS_NAME" value="mjeks.athenkosi.EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncapsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance" />
+      <option name="PACKAGE_NAME" value="encapsulation" />
+      <option name="MAIN_CLASS_NAME" value="encapsulation.EncapsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance" />
+      <option name="PACKAGE_NAME" value="encapsulation" />
+      <option name="MAIN_CLASS_NAME" value="encapsulation.ListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EncapsTest" />
+        <item itemvalue="JUnit.ListTest" />
         <item itemvalue="JUnit.MiniBusTest" />
         <item itemvalue="JUnit.EmployeeTest" />
       </list>
@@ -123,7 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583061323580</updated>
       <workItem from="1583061326282" duration="5542000" />
-      <workItem from="1583167953072" duration="4380000" />
+      <workItem from="1583167953072" duration="8541000" />
+      <workItem from="1583263391532" duration="965000" />
     </task>
     <servers />
   </component>
@@ -131,37 +141,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1583170914650">
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1583263978822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583170914650" />
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583263978822" />
     <state x="479" y="222" width="407" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583171047338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="222" width="407" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1583171047338" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1583172687459">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583263634656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583172687459" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1583172687459">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583263634656" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1583264510554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583172687459" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1583172687459">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583264510554" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1583264510554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583172687459" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1583172687459">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583264510554" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1583264510554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583172687459" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583167974977">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583264510554" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1583264510554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583167974977" />
-    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583171111911">
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583264510554" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583263552060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1583171111911" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583263552060" />
+    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583263841855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1583263841855" />
   </component>
 </project>
