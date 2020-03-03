@@ -8,6 +8,7 @@ import org.junit.Test;
 
 public class EmployeeTest extends TestCase {
     Person employee;
+
     @Before
     public void setUp() throws Exception {
         super.setUp();
@@ -18,4 +19,6 @@ public class EmployeeTest extends TestCase {
     public void testJobTitle(){
         assertEquals(employee.getName(), "Athi");
     }
+
+
 }
